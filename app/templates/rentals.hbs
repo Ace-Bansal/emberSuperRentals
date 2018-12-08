@@ -4,3 +4,11 @@
     Here's the list of properties.
 </p>
 
+
+{{#each model as |rental|}}
+    <div>
+        <h3>{{rental.id}}</h3>
+        <p>{{rental.city}}</p>
+        <p>{{rental.price}}</p>
+    </div>
+{{/each}}
