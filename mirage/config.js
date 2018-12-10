@@ -5,20 +5,32 @@ export default function() {
     return {
       data: [
         {
-          id: 'First Mansion',
-          city: 'Dehradun',
-          price: 4500000
+          type: 'rentals',
+          id: 'first-mansion',
+          attributes: {
+            name: 'First Mansion',
+            city: 'Dehradun',
+            price: 4500000
+          }
         },
         {
-          id: 'Second Casa',
-          city: 'Delhi',
-          price: 90000000
+          type: 'rentals',
+          id: 'second-casa',
+          attributes: {
+            name: 'Second Casa',
+            city: 'Delhi',
+            price: 90000000
+          }
         },
         {
-          id: 'Third Adobe',
-          city: 'Mumbai',
-          price: 450000000
-        }
+          type: 'rentals',
+          id: 'third-adobe',
+          attributes: {
+            name: 'Third Adobe',
+            city: 'Mumbai',
+            price: 76000000
+          }
+        }        
       ]
     }
   })
